@@ -1,0 +1,60 @@
+.logo{
+    max-width: 400px;
+    @include media-breakpoint-down(sm){
+        max-width: 200px;
+    }
+}
+
+
+
+.topimg{
+    background-image: url('https://images.unsplash.com/photo-1558877385-6fc9b25e3adf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2019&q=80');
+    height: 480px;
+    background-size: cover;
+    background-position: center center;
+    @include media-breakpoint-down(md){
+        height: 340px;
+    }
+    @include media-breakpoint-down(sm){
+        height: 250px;
+    }
+}
+
+.title1{
+    width: 320px;
+}
+
+.ch-image{
+    width: 100px;
+    @include media-breakpoint-down(md){
+        width: 135px;
+    }
+    @include media-breakpoint-down(sm){
+        width: 149px;
+    }
+}
+
+.ticket img{
+    max-width: 400px;
+    @include media-breakpoint-down(md){
+        max-width: 305px;
+    }
+    @include media-breakpoint-down(sm){
+        max-width: 280px;
+    }
+}
+
+.CO-img{
+    height: 150px; 
+    background-size: cover; 
+    background-position: center;
+    @include media-breakpoint-down(sm){
+        height: 270px;
+    }
+}
+
+.CO-img-detail{
+    height: 320px;
+    background-size: cover; 
+    background-position: center;
+}

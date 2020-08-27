@@ -1,0 +1,10 @@
+.ch1Modal, .ch2Modal{
+    $border-radius: 0 !important;
+    border: none;
+    .modal-header{
+        border-radius: $border-radius;
+    }
+    .modaltext{
+        font-size: 12px;
+    }
+}

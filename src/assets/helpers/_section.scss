@@ -1,0 +1,52 @@
+.character{
+    background-color: #a8dadc;
+}
+
+.ch-t,.tag, .copy-t{
+    font-size: 14px;
+}
+
+.product-t{
+    border-bottom: 1px solid black;
+}
+
+.footer{ 
+    border-top: 2px solid #d9d9d9;
+    p{
+        font-size: 14px;
+    }
+}
+
+ul{
+    list-style: none;
+}
+
+.menu{
+    border-radius: 0px;
+
+    .list-group-item{
+    border-top-color: #457b9d;
+    border-bottom-color: #457b9d;
+    border-left-color: #457b9d;
+    border-right-color: #457b9d;
+    }   
+
+    .list-group-item.active,
+    .list-group-item:hover{
+    background-color: #457b9d;
+    color: #f1faee
+    }
+}
+
+.btn-checkout{
+    border: 2px solid #1d3557;
+}
+
+
+.checkoutdetail{
+    border: 2px solid #a8dadc;
+}
+
+.paytext{
+    width: 180px;
+}
